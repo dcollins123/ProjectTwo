@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 Node::Node(Course aCourse) : course(aCourse), next(nullptr) {}
 
 LinkedList::LinkedList() : head(nullptr), tail(nullptr), size(0) {}
